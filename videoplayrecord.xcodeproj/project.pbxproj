@@ -15,6 +15,15 @@
 		176BDA1A1980E2A10050FFB2 /* picsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 176BDA191980E2A10050FFB2 /* picsAppDelegate.m */; };
 		176BDA1D1980E2A10050FFB2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176BDA1B1980E2A10050FFB2 /* MainStoryboard.storyboard */; };
 		176BDA201980E2A10050FFB2 /* picsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176BDA1F1980E2A10050FFB2 /* picsViewController.m */; };
+		176BDA271980E32C0050FFB2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176BDA261980E32C0050FFB2 /* AssetsLibrary.framework */; };
+		176BDA291980E33A0050FFB2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176BDA281980E33A0050FFB2 /* AVFoundation.framework */; };
+		176BDA2B1980E34B0050FFB2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176BDA2A1980E34B0050FFB2 /* CoreMedia.framework */; };
+		176BDA2D1980E3570050FFB2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176BDA2C1980E3570050FFB2 /* MediaPlayer.framework */; };
+		176BDA2F1980E3620050FFB2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176BDA2E1980E3620050FFB2 /* MobileCoreServices.framework */; };
+		176BDA311980E36D0050FFB2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176BDA301980E36D0050FFB2 /* QuartzCore.framework */; };
+		176BDA341980E9250050FFB2 /* PlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176BDA331980E9250050FFB2 /* PlayVideoViewController.m */; };
+		176BDA371980E9470050FFB2 /* RecordVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176BDA361980E9470050FFB2 /* RecordVideoViewController.m */; };
+		176BDA3A1980E96D0050FFB2 /* MergeVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176BDA391980E96D0050FFB2 /* MergeVideoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +40,18 @@
 		176BDA1C1980E2A10050FFB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		176BDA1E1980E2A10050FFB2 /* picsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = picsViewController.h; sourceTree = "<group>"; };
 		176BDA1F1980E2A10050FFB2 /* picsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = picsViewController.m; sourceTree = "<group>"; };
+		176BDA261980E32C0050FFB2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		176BDA281980E33A0050FFB2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		176BDA2A1980E34B0050FFB2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		176BDA2C1980E3570050FFB2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		176BDA2E1980E3620050FFB2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		176BDA301980E36D0050FFB2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		176BDA321980E9250050FFB2 /* PlayVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVideoViewController.h; sourceTree = "<group>"; };
+		176BDA331980E9250050FFB2 /* PlayVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVideoViewController.m; sourceTree = "<group>"; };
+		176BDA351980E9470050FFB2 /* RecordVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordVideoViewController.h; sourceTree = "<group>"; };
+		176BDA361980E9470050FFB2 /* RecordVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordVideoViewController.m; sourceTree = "<group>"; };
+		176BDA381980E96D0050FFB2 /* MergeVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeVideoViewController.h; sourceTree = "<group>"; };
+		176BDA391980E96D0050FFB2 /* MergeVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeVideoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +59,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				176BDA311980E36D0050FFB2 /* QuartzCore.framework in Frameworks */,
+				176BDA2F1980E3620050FFB2 /* MobileCoreServices.framework in Frameworks */,
+				176BDA2D1980E3570050FFB2 /* MediaPlayer.framework in Frameworks */,
+				176BDA2B1980E34B0050FFB2 /* CoreMedia.framework in Frameworks */,
+				176BDA291980E33A0050FFB2 /* AVFoundation.framework in Frameworks */,
+				176BDA271980E32C0050FFB2 /* AssetsLibrary.framework in Frameworks */,
 				176BDA0A1980E2A10050FFB2 /* UIKit.framework in Frameworks */,
 				176BDA0C1980E2A10050FFB2 /* Foundation.framework in Frameworks */,
 				176BDA0E1980E2A10050FFB2 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +77,18 @@
 		176BD9FA1980E2A10050FFB2 = {
 			isa = PBXGroup;
 			children = (
+				176BDA321980E9250050FFB2 /* PlayVideoViewController.h */,
+				176BDA331980E9250050FFB2 /* PlayVideoViewController.m */,
+				176BDA351980E9470050FFB2 /* RecordVideoViewController.h */,
+				176BDA361980E9470050FFB2 /* RecordVideoViewController.m */,
+				176BDA381980E96D0050FFB2 /* MergeVideoViewController.h */,
+				176BDA391980E96D0050FFB2 /* MergeVideoViewController.m */,
+				176BDA301980E36D0050FFB2 /* QuartzCore.framework */,
+				176BDA2E1980E3620050FFB2 /* MobileCoreServices.framework */,
+				176BDA2C1980E3570050FFB2 /* MediaPlayer.framework */,
+				176BDA2A1980E34B0050FFB2 /* CoreMedia.framework */,
+				176BDA281980E33A0050FFB2 /* AVFoundation.framework */,
+				176BDA261980E32C0050FFB2 /* AssetsLibrary.framework */,
 				176BDA0F1980E2A10050FFB2 /* videoplayrecord */,
 				176BDA081980E2A10050FFB2 /* Frameworks */,
 				176BDA061980E2A10050FFB2 /* Products */,
@@ -165,6 +204,9 @@
 				176BDA161980E2A10050FFB2 /* main.m in Sources */,
 				176BDA1A1980E2A10050FFB2 /* picsAppDelegate.m in Sources */,
 				176BDA201980E2A10050FFB2 /* picsViewController.m in Sources */,
+				176BDA341980E9250050FFB2 /* PlayVideoViewController.m in Sources */,
+				176BDA371980E9470050FFB2 /* RecordVideoViewController.m in Sources */,
+				176BDA3A1980E96D0050FFB2 /* MergeVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
