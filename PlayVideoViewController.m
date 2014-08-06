@@ -1,9 +1,7 @@
 //
 //  PlayVideoViewController.m
 //  videoplayrecord
-//
-//  Created by Omer on 7/24/14.
-//  Copyright (c) 2014 Javaid. All rights reserved.
+
 //
 
 #import "PlayVideoViewController.h"
