@@ -10,7 +10,6 @@
 
 @interface RecordVideoViewController : UIViewController
 
--(IBAction)recordAndPlay:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UIButton *recordAndPlay;
 -(BOOL)startCameraControllerFromViewController:(UIViewController*)controller

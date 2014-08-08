@@ -23,7 +23,7 @@
 		176BDA311980E36D0050FFB2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176BDA301980E36D0050FFB2 /* QuartzCore.framework */; };
 		176BDA341980E9250050FFB2 /* PlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176BDA331980E9250050FFB2 /* PlayVideoViewController.m */; };
 		176BDA371980E9470050FFB2 /* RecordVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176BDA361980E9470050FFB2 /* RecordVideoViewController.m */; };
-		176BDA3A1980E96D0050FFB2 /* MergeVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176BDA391980E96D0050FFB2 /* MergeVideoViewController.m */; };
+		17B9F62A19949F8D00BD1CC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B9F62919949F8D00BD1CC4 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,8 +50,7 @@
 		176BDA331980E9250050FFB2 /* PlayVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVideoViewController.m; sourceTree = "<group>"; };
 		176BDA351980E9470050FFB2 /* RecordVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordVideoViewController.h; sourceTree = "<group>"; };
 		176BDA361980E9470050FFB2 /* RecordVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordVideoViewController.m; sourceTree = "<group>"; };
-		176BDA381980E96D0050FFB2 /* MergeVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeVideoViewController.h; sourceTree = "<group>"; };
-		176BDA391980E96D0050FFB2 /* MergeVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeVideoViewController.m; sourceTree = "<group>"; };
+		17B9F62919949F8D00BD1CC4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +76,11 @@
 		176BD9FA1980E2A10050FFB2 = {
 			isa = PBXGroup;
 			children = (
+				17B9F62919949F8D00BD1CC4 /* Default-568h@2x.png */,
 				176BDA321980E9250050FFB2 /* PlayVideoViewController.h */,
 				176BDA331980E9250050FFB2 /* PlayVideoViewController.m */,
 				176BDA351980E9470050FFB2 /* RecordVideoViewController.h */,
 				176BDA361980E9470050FFB2 /* RecordVideoViewController.m */,
-				176BDA381980E96D0050FFB2 /* MergeVideoViewController.h */,
-				176BDA391980E96D0050FFB2 /* MergeVideoViewController.m */,
 				176BDA301980E36D0050FFB2 /* QuartzCore.framework */,
 				176BDA2E1980E3620050FFB2 /* MobileCoreServices.framework */,
 				176BDA2C1980E3570050FFB2 /* MediaPlayer.framework */,
@@ -164,7 +162,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = pics;
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Javaid;
 			};
 			buildConfigurationList = 176BD9FF1980E2A10050FFB2 /* Build configuration list for PBXProject "videoplayrecord" */;
@@ -191,6 +189,7 @@
 			files = (
 				176BDA141980E2A10050FFB2 /* InfoPlist.strings in Resources */,
 				176BDA1D1980E2A10050FFB2 /* MainStoryboard.storyboard in Resources */,
+				17B9F62A19949F8D00BD1CC4 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +205,6 @@
 				176BDA201980E2A10050FFB2 /* picsViewController.m in Sources */,
 				176BDA341980E9250050FFB2 /* PlayVideoViewController.m in Sources */,
 				176BDA371980E9470050FFB2 /* RecordVideoViewController.m in Sources */,
-				176BDA3A1980E96D0050FFB2 /* MergeVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,11 +234,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -251,10 +254,16 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "39724E5A-5530-4609-BFB1-238C3B3D4582";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "39724E5A-5530-4609-BFB1-238C3B3D4582";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -263,19 +272,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "39724E5A-5530-4609-BFB1-238C3B3D4582";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "39724E5A-5530-4609-BFB1-238C3B3D4582";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -284,10 +303,14 @@
 		176BDA241980E2A10050FFB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "videoplayrecord/videoplayrecord-Prefix.pch";
 				INFOPLIST_FILE = "videoplayrecord/videoplayrecord-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "39724E5A-5530-4609-BFB1-238C3B3D4582";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "39724E5A-5530-4609-BFB1-238C3B3D4582";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -295,10 +318,14 @@
 		176BDA251980E2A10050FFB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "videoplayrecord/videoplayrecord-Prefix.pch";
 				INFOPLIST_FILE = "videoplayrecord/videoplayrecord-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "39724E5A-5530-4609-BFB1-238C3B3D4582";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "39724E5A-5530-4609-BFB1-238C3B3D4582";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -322,6 +349,7 @@
 				176BDA251980E2A10050FFB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
