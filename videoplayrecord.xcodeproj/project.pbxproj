@@ -23,6 +23,12 @@
 		176BDA311980E36D0050FFB2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176BDA301980E36D0050FFB2 /* QuartzCore.framework */; };
 		176BDA341980E9250050FFB2 /* PlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176BDA331980E9250050FFB2 /* PlayVideoViewController.m */; };
 		176BDA371980E9470050FFB2 /* RecordVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176BDA361980E9470050FFB2 /* RecordVideoViewController.m */; };
+		17981B5719AAFBC30042C95B /* CustomEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 17981B5619AAFBC30042C95B /* CustomEffects.m */; };
+		17981B5A19AAFCC70042C95B /* Pixels.m in Sources */ = {isa = PBXBuildFile; fileRef = 17981B5919AAFCC70042C95B /* Pixels.m */; };
+		17981B5D19AAFD310042C95B /* ImageEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 17981B5C19AAFD310042C95B /* ImageEffect.m */; };
+		17981B6019AAFD9F0042C95B /* Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 17981B5F19AAFD9F0042C95B /* Effect.m */; };
+		17981B6319AAFDE90042C95B /* EffectsInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 17981B6219AAFDE90042C95B /* EffectsInterface.m */; };
+		17981B6619AB09E30042C95B /* NSMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 17981B6519AB09E30042C95B /* NSMutableArray.m */; };
 		17B9F62A19949F8D00BD1CC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B9F62919949F8D00BD1CC4 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +56,18 @@
 		176BDA331980E9250050FFB2 /* PlayVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVideoViewController.m; sourceTree = "<group>"; };
 		176BDA351980E9470050FFB2 /* RecordVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordVideoViewController.h; sourceTree = "<group>"; };
 		176BDA361980E9470050FFB2 /* RecordVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordVideoViewController.m; sourceTree = "<group>"; };
+		17981B5519AAFBC30042C95B /* CustomEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomEffects.h; sourceTree = "<group>"; };
+		17981B5619AAFBC30042C95B /* CustomEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomEffects.m; sourceTree = "<group>"; };
+		17981B5819AAFCC70042C95B /* Pixels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pixels.h; sourceTree = "<group>"; };
+		17981B5919AAFCC70042C95B /* Pixels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pixels.m; sourceTree = "<group>"; };
+		17981B5B19AAFD310042C95B /* ImageEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageEffect.h; sourceTree = "<group>"; };
+		17981B5C19AAFD310042C95B /* ImageEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageEffect.m; sourceTree = "<group>"; };
+		17981B5E19AAFD9F0042C95B /* Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Effect.h; sourceTree = "<group>"; };
+		17981B5F19AAFD9F0042C95B /* Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Effect.m; sourceTree = "<group>"; };
+		17981B6119AAFDE90042C95B /* EffectsInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectsInterface.h; sourceTree = "<group>"; };
+		17981B6219AAFDE90042C95B /* EffectsInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectsInterface.m; sourceTree = "<group>"; };
+		17981B6419AB09E30042C95B /* NSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableArray.h; sourceTree = "<group>"; };
+		17981B6519AB09E30042C95B /* NSMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableArray.m; sourceTree = "<group>"; };
 		17B9F62919949F8D00BD1CC4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,11 +94,23 @@
 		176BD9FA1980E2A10050FFB2 = {
 			isa = PBXGroup;
 			children = (
+				17981B6419AB09E30042C95B /* NSMutableArray.h */,
+				17981B6519AB09E30042C95B /* NSMutableArray.m */,
 				17B9F62919949F8D00BD1CC4 /* Default-568h@2x.png */,
 				176BDA321980E9250050FFB2 /* PlayVideoViewController.h */,
 				176BDA331980E9250050FFB2 /* PlayVideoViewController.m */,
 				176BDA351980E9470050FFB2 /* RecordVideoViewController.h */,
 				176BDA361980E9470050FFB2 /* RecordVideoViewController.m */,
+				17981B5519AAFBC30042C95B /* CustomEffects.h */,
+				17981B5619AAFBC30042C95B /* CustomEffects.m */,
+				17981B5819AAFCC70042C95B /* Pixels.h */,
+				17981B5919AAFCC70042C95B /* Pixels.m */,
+				17981B5B19AAFD310042C95B /* ImageEffect.h */,
+				17981B5C19AAFD310042C95B /* ImageEffect.m */,
+				17981B5E19AAFD9F0042C95B /* Effect.h */,
+				17981B5F19AAFD9F0042C95B /* Effect.m */,
+				17981B6119AAFDE90042C95B /* EffectsInterface.h */,
+				17981B6219AAFDE90042C95B /* EffectsInterface.m */,
 				176BDA301980E36D0050FFB2 /* QuartzCore.framework */,
 				176BDA2E1980E3620050FFB2 /* MobileCoreServices.framework */,
 				176BDA2C1980E3570050FFB2 /* MediaPlayer.framework */,
@@ -200,9 +230,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17981B6319AAFDE90042C95B /* EffectsInterface.m in Sources */,
+				17981B5D19AAFD310042C95B /* ImageEffect.m in Sources */,
+				17981B5A19AAFCC70042C95B /* Pixels.m in Sources */,
 				176BDA161980E2A10050FFB2 /* main.m in Sources */,
+				17981B5719AAFBC30042C95B /* CustomEffects.m in Sources */,
 				176BDA1A1980E2A10050FFB2 /* picsAppDelegate.m in Sources */,
+				17981B6619AB09E30042C95B /* NSMutableArray.m in Sources */,
 				176BDA201980E2A10050FFB2 /* picsViewController.m in Sources */,
+				17981B6019AAFD9F0042C95B /* Effect.m in Sources */,
 				176BDA341980E9250050FFB2 /* PlayVideoViewController.m in Sources */,
 				176BDA371980E9470050FFB2 /* RecordVideoViewController.m in Sources */,
 			);
